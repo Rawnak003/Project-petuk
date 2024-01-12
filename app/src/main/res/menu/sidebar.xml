@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeButton"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/profileButton"
+            android:icon="@drawable/baseline_account_circle_24"
+            android:title="@string/my_profile" />
+
+
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/personal">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                    android:id="@+id/recipeButton"
+                    android:icon="@drawable/baseline_restaurant_24"
+                    android:title="@string/my_recipes" />
+                    <item
+                        android:id="@+id/favouriteButton"
+                        android:icon="@drawable/baseline_star_24"
+                        android:title="@string/favourites" />
+                    <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/baseline_share_24"
+                    android:title="@string/share" />
+                </group>
+
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/information">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/aboutUs"
+                        android:icon="@drawable/baseline_info_24"
+                        android:title="@string/about_us" />
+                </group>
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

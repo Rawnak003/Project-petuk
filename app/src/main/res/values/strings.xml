@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="Pizza">
+        <item>Margherita Pizza</item>
+        <item>Sausage Blast Pizza</item>
+        <item>Exotic BBQ Pizza</item>
+        <item>Heavy Meat Pizza</item>
+        <item>Cheese Shower Pizza</item>
+        <item>Dual Cake Pizza</item>
+        <item>Italian Pizza</item>
+    </string-array>
+    <string-array name="Category">
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>Coffee</item>
+        <item>Soup</item>
+        <item>Biriyani</item>
+        <item>Kebab</item>
+        <item>Pasta</item>
+        <item>Noodles</item>
+        <item>Salad</item>
+        <item>Dessert</item>
+    </string-array>
+    <string name="s1">Flavors Unleashed</string>
+    <string name="s2">Moments Created</string>
+    <string name="s3">Categories</string>
+    <string name="category">Pizza</string>
+    <string name="pizza1">Margherita Pizza</string>
+    <string name="ingredient">Ingredients</string>
+    <string name="procedure">Procedure</string>
+    <string name="download">Download Ingredient Amount List</string>
+    <string name="list">1. Flour\n2. Processed Cheese\n3. Baking Powder\n4. Dry Yeast\n5. Water\n6. Mozzarella\n7. Tomato ketchup\n8. Tomato\n9. Onions\n10. Chili Flakes\n11. Sugar\n12. Olive oil\n13. Mushrooms\n14. Capsicum (green pepper)\n15. Oregano</string>
+    <string name="pro">Step 1: Prepare the pizza dough by mixing all-purpose flour, salt, and baking powder. Add olive oil to a well in the center. Activate yeast with warm water and sugar, then add it to the flour. Let the dough rise for 4-6 hours.\nStep 2: Preheat the oven to 180°C. Roll out the pizza dough into a circular base, prick it with a fork, and bake for 10 minutes.\nStep 3: Chop capsicum, onions, tomatoes, and mushrooms. Grate processed and mozzarella cheese.\nStep 4: Spread tomato ketchup on the pizza base, add processed cheese, veggies, and top with mozzarella.\nStep 5: Bake at 250°C for 10 minutes. Remove, slice, and sprinkle with oregano and chili flakes. Serve hot.\n</string>
+    <string name="getStared">Get Started</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="menu_bar_image">menuBarImage</string>
+    <string name="search_for_a_recipe">Search for a recipe</string>
+    <string name="download_bar">DownloadBar</string>
+    <string name="fav_bar_image">favBarImage</string>
+    <string name="about_us">About Us</string>
+    <string name="favourites">Favourites</string>
+    <string name="home">Home</string>
+    <string name="my_recipes">My Recipes</string>
+    <string name="my_profile">My Profile</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">Login</string>
+    <string name="login1">" <u>Login</u>"</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_account">Create a new account. </string>
+    <string name="sign_up">"Register"</string>
+    <string name="register">" <u>Register</u>"</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="message">You have Logged In</string>
+    <string name="share">Share</string>
+    <string name="petuk">Petuk</string>
+    <string name="personal">Personal</string>
+    <string name="information">Information</string>
+    <string name="start">start</string>
+    <string name="close">close</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="Name">Name</string>
+    <string name="userName">Username</string>
+    <string name="logout">Logout</string>
+    <string name="hello">"Hello "</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="phone">Contact</string>
+    <string name="go_to_home">Go to Home</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="save">Save</string>
+</resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "372567080834",
+    "firebase_url": "https://petuk-934d6-default-rtdb.firebaseio.com",
+    "project_id": "petuk-934d6",
+    "storage_bucket": "petuk-934d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372567080834:android:059c7568e6cc7c85b4999b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkp-4cNXr9O8NOwUwNGaM0NUt3TeX3Pso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

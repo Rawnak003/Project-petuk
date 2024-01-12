@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/LinearSampleId"
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/round"
+        tools:ignore="UselessParent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageId"
+            android:layout_width="330dp"
+            android:layout_height="80dp"
+            android:layout_weight="3"
+            android:src="@drawable/margherita"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/circleImageView"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:gravity="center_vertical"
+            android:paddingStart="25dp"
+            android:text="@string/pizza1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+</LinearLayout>

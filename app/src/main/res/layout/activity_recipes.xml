@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recipes"
+    android:id="@+id/sideNavigation"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E0F6FF"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <include
+            layout="@layout/activity_toolbar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginBottom="3sp"
+            android:text="@string/s1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/s2"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/dishName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/category"
+            android:textColor="#0091EA"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/ingredientId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/ingredient"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <ScrollView
+            android:id="@+id/RecipeScrollId1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/IngredientTextId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/list"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/procedureId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/procedure"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/RecipeScrollId2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/procedureTextId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pro"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    tools:ignore="VisualLintLongText" />
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+        <include
+            layout="@layout/activity_fav"/>
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
