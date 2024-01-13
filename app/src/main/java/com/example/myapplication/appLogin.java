@@ -100,6 +100,8 @@ public class appLogin extends AppCompatActivity {
                         intent.putExtra("phone",phoneFromDB);
                         intent.putExtra("email",emailFromDB);
                         startActivity(intent);
+                        Toast.makeText(getApplicationContext(),"Logged In",Toast.LENGTH_SHORT).show();
+                        finish();
                     }else{
                         loginPassword.setError("Wrong password");
                         loginPassword.requestFocus();
