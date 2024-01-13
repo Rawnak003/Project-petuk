@@ -10,15 +10,15 @@
         android:id="@+id/LinearSampleId"
         android:weightSum="4"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
-        android:layout_margin="5dp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_margin="@dimen/_5sdp"
         android:background="@drawable/round"
         tools:ignore="UselessParent">
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/imageId"
-            android:layout_width="330dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_70sdp"
             android:layout_weight="3"
             android:src="@drawable/margherita"
             android:scaleType="centerCrop"
@@ -33,10 +33,10 @@
             android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:gravity="center_vertical"
-            android:paddingStart="25dp"
+            android:paddingStart="@dimen/_21sdp"
             android:text="@string/pizza1"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15ssp"
             android:textStyle="bold"
             tools:ignore="RtlSymmetry" />
     </LinearLayout>

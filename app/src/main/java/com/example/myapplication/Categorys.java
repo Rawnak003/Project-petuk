@@ -53,13 +53,13 @@ public class Categorys extends AppCompatActivity {
                 String nameUser = intent1.getStringExtra("name");
                 String emailUser = intent1.getStringExtra("email");
                 String phoneUser = intent1.getStringExtra("phone");
-                String usernameUser = intent1.getStringExtra("username");
+                String usernameUser = intent1.getStringExtra("userName");
 
                 Intent intent = new Intent(getApplicationContext(), CategoryName.class);
                 intent.putExtra("name", nameUser);
                 intent.putExtra("email", emailUser);
                 intent.putExtra("phone", phoneUser);
-                intent.putExtra("username", usernameUser);
+                intent.putExtra("userName", usernameUser);
                 startActivity(intent);
                 finish();
             }
@@ -72,13 +72,13 @@ public class Categorys extends AppCompatActivity {
                 String nameUser = intent1.getStringExtra("name");
                 String emailUser = intent1.getStringExtra("email");
                 String phoneUser = intent1.getStringExtra("phone");
-                String usernameUser = intent1.getStringExtra("username");
+                String usernameUser = intent1.getStringExtra("userName");
 
                 Intent intent2 = new Intent(getApplicationContext(),profile.class);
                 intent2.putExtra("name", nameUser);
                 intent2.putExtra("email", emailUser);
                 intent2.putExtra("phone", phoneUser);
-                intent2.putExtra("username", usernameUser);
+                intent2.putExtra("userName", usernameUser);
                 startActivity(intent2);
 
             }
@@ -126,22 +126,22 @@ public class Categorys extends AppCompatActivity {
                 String nameUser = intent1.getStringExtra("name");
                 String emailUser = intent1.getStringExtra("email");
                 String phoneUser = intent1.getStringExtra("phone");
-                String usernameUser = intent1.getStringExtra("username");
+                String usernameUser = intent1.getStringExtra("userName");
 
                 Intent in = new Intent(getApplicationContext(), Recipes.class);
                 in.putExtra("Rname",Sname);
                 in.putExtra("name", nameUser);
                 in.putExtra("email", emailUser);
                 in.putExtra("phone", phoneUser);
-                in.putExtra("username", usernameUser);
+                in.putExtra("userName", usernameUser);
 
                 startActivity(in);
             }
         });
 
-        Intent intent1 = getIntent();
-        if(intent1.getExtras() != null){
-            String SelectedName = intent1.getStringExtra("Cname");
+        Intent intent2 = getIntent();
+        if(intent2.getExtras() != null){
+            String SelectedName = intent2.getStringExtra("Cname");
             txtView.setText(SelectedName);
         }
 

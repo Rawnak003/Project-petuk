@@ -11,16 +11,16 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        app:cardCornerRadius="30dp"
-        app:cardElevation="20dp">
+        android:layout_margin="@dimen/_30sdp"
+        app:cardCornerRadius="@dimen/_30sdp"
+        app:cardElevation="@dimen/_20sdp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="center_horizontal"
-            android:padding="24dp"
+            android:padding="@dimen/_18sdp"
             android:background="@color/white"
             >
 
@@ -31,21 +31,21 @@
                 android:text="@string/sign_up"
                 android:textAlignment="center"
                 android:textColor="#0091EA"
-                android:textSize="30sp"
+                android:textSize="@dimen/_26ssp"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/signup_email"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="35dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_25sdp"
                 android:background="@drawable/border"
                 android:drawableStart="@drawable/baseline_email_24"
-                android:drawablePadding="8dp"
+                android:drawablePadding="@dimen/_8sdp"
                 android:hint="@string/email"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:padding="8dp"
+                android:padding="@dimen/_8sdp"
                 android:textColor="@color/black"
                 android:textColorHint="#808080"
                 tools:ignore="TextFields,VisualLintTextFieldSize,TextContrastCheck" />
@@ -53,15 +53,15 @@
             <EditText
                 android:id="@+id/signup_name"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="18dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_13sdp"
                 android:background="@drawable/border"
                 android:drawableStart="@drawable/baseline_person_24"
-                android:drawablePadding="8dp"
+                android:drawablePadding="@dimen/_8sdp"
                 android:hint="@string/Name"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:padding="8dp"
+                android:padding="@dimen/_8sdp"
                 android:textColor="@color/black"
                 android:textColorHint="#808080"
                 tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
@@ -69,76 +69,78 @@
             <EditText
                 android:id="@+id/signup_username"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="18dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_13sdp"
                 android:background="@drawable/border"
                 android:drawableStart="@drawable/baseline_account_circle_24"
-                android:drawablePadding="8dp"
+                android:drawablePadding="@dimen/_8sdp"
                 android:hint="@string/userName"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:padding="8dp"
+                android:padding="@dimen/_8sdp"
                 android:textColor="@color/black"
                 android:textColorHint="#808080"
-                tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+                tools:ignore="VisualLintTextFieldSize,TextContrastCheck,VisualLintBounds" />
 
             <EditText
                 android:id="@+id/signup_password"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="18dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_13sdp"
                 android:background="@drawable/border"
                 android:drawableStart="@drawable/baseline_lock_24"
-                android:drawablePadding="8dp"
+                android:drawablePadding="@dimen/_8sdp"
                 android:hint="@string/password"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:padding="8dp"
+                android:padding="@dimen/_8sdp"
                 android:textColor="@color/black"
                 android:textColorHint="#808080"
-                tools:ignore="TextFields,VisualLintTextFieldSize,TextContrastCheck" />
+                tools:ignore="TextFields,VisualLintTextFieldSize,TextContrastCheck,VisualLintBounds" />
 
             <EditText
                 android:id="@+id/signup_phone"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="18dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_13sdp"
                 android:background="@drawable/border"
                 android:drawableStart="@drawable/baseline_contact_phone_24"
-                android:drawablePadding="8dp"
+                android:drawablePadding="@dimen/_8sdp"
                 android:hint="@string/mobile_number"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:padding="8dp"
+                android:padding="@dimen/_8sdp"
                 android:textColor="@color/black"
                 android:textColorHint="#808080"
-                tools:ignore="TextFields,VisualLintTextFieldSize,TextContrastCheck" />
+                tools:ignore="TextFields,VisualLintTextFieldSize,TextContrastCheck,VisualLintBounds" />
 
             <Button
                 android:id="@+id/signup_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="@dimen/_21sdp"
                 android:backgroundTint="#0091EA"
                 android:text="@string/sign_up"
                 android:textColor="@color/white"
-                android:textSize="17sp"
+                android:textSize="@dimen/_15ssp"
                 android:textStyle="bold"
-                tools:ignore="DuplicateSpeakableTextCheck" />
+                tools:ignore="DuplicateSpeakableTextCheck,VisualLintBounds" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:orientation="horizontal">
+                android:layout_marginTop="@dimen/_20sdp"
+                android:orientation="horizontal"
+                tools:ignore="VisualLintBounds">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/have_account"
                     android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="normal"
+                    tools:ignore="VisualLintBounds" />
 
                 <TextView
                     android:id="@+id/signUpMessageId"
@@ -147,7 +149,7 @@
                     android:onClick="loginPage"
                     android:text="@string/login1"
                     android:textColor="#1565C0"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/_14ssp"
                     android:textStyle="bold"
                     tools:ignore="TouchTargetSizeCheck" />
             </LinearLayout>

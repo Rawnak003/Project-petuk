@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         android:background="#E0F6FF"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="@dimen/_20sdp">
         <include
             layout="@layout/activity_toolbar"/>
 
@@ -23,10 +23,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:layout_marginBottom="3sp"
+            android:layout_marginBottom="@dimen/_3sdp"
             android:text="@string/s1"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="@dimen/_16ssp"
             tools:ignore="TextContrastCheck" />
 
         <TextView
@@ -35,31 +35,31 @@
             android:layout_gravity="start"
             android:text="@string/s2"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="@dimen/_21ssp"
             android:textStyle="bold"
             tools:ignore="TextContrastCheck" />
 
         <EditText
             android:id="@+id/searchBarId"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:background="@drawable/round2"
             android:hint="@string/search_for_a_recipe"
             android:importantForAutofill="no"
             android:inputType="text"
             android:textColorHint="#808080"
-            tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+            tools:ignore="VisualLintTextFieldSize,TextContrastCheck,TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/categoryId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="@dimen/_20sdp"
             android:text="@string/category"
             android:textColor="#0091EA"
-            android:textSize="30sp"
+            android:textSize="@dimen/_26ssp"
             android:textStyle="bold"
             tools:ignore="TextContrastCheck" />
 
@@ -67,17 +67,18 @@
             android:id="@+id/GridView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:horizontalSpacing="15dp"
+            android:horizontalSpacing="@dimen/_13sdp"
             android:numColumns="1"
-            android:verticalSpacing="2dp">
+            android:verticalSpacing="@dimen/_2sdp">
 
         </GridView>
     </LinearLayout>
     <RelativeLayout
-        android:layout_width="300dp"
+        android:layout_width="@dimen/_250sdp"
         android:layout_height="match_parent"
         android:layout_gravity="start">
         <include
             layout="@layout/activity_fav"/>
     </RelativeLayout>
+
 </androidx.drawerlayout.widget.DrawerLayout>

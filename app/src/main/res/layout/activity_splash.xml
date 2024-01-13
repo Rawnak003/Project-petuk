@@ -10,9 +10,9 @@
 
     <ProgressBar
         android:id="@+id/progressBarId"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginBottom="180dp"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_150sdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:progressTint="@color/white"

@@ -8,25 +8,25 @@
     android:background="#E0F6FF"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:padding="@dimen/_18sdp">
 
 
     <include layout="@layout/activity_toolbar2" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/ProfileImageId"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="@dimen/_12sdp"
         android:scaleType="centerCrop"
         android:src="@drawable/profileperson"
         app:shapeAppearanceOverlay="@style/circleImageView" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_marginTop="5dp"
+        android:layout_height="@dimen/_33sdp"
+        android:layout_marginTop="@dimen/_5sdp"
         android:gravity="center"
         android:orientation="horizontal"
         tools:ignore="TextSizeCheck">
@@ -37,7 +37,7 @@
             android:text="@string/hello"
             android:textAlignment="viewEnd"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="@dimen/_16ssp"
             android:textStyle="bold" />
 
         <TextView
@@ -47,7 +47,7 @@
             android:text="@string/userName"
             android:textAlignment="viewStart"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="@dimen/_16ssp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -56,17 +56,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="17dp"
+        android:layout_margin="@dimen/_13sdp"
         android:background="@drawable/border"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="@dimen/_15sdp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="5dp"
+            android:padding="@dimen/_5sdp"
             android:weightSum="6">
 
             <TextView
@@ -75,7 +75,7 @@
                 android:layout_weight="1"
                 android:text="@string/Name"
                 android:textColor="#0091EA"
-                android:textSize="15sp"
+                android:textSize="@dimen/_11ssp"
                 android:textStyle="bold" />
 
             <TextView
@@ -86,22 +86,22 @@
                 android:text="@string/Name"
                 android:textAlignment="viewEnd"
                 android:textColor="@color/black"
-                android:textSize="15sp"
+                android:textSize="@dimen/_11ssp"
                 android:textStyle="bold" />
         </LinearLayout>
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
             android:background="#0091EA" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="5dp"
+            android:padding="@dimen/_5sdp"
             android:weightSum="6">
 
             <TextView
@@ -110,8 +110,9 @@
                 android:layout_weight="1"
                 android:text="@string/phone"
                 android:textColor="#0091EA"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold"
+                tools:ignore="VisualLintBounds" />
 
             <TextView
                 android:id="@+id/pro_contact_txt"
@@ -121,22 +122,23 @@
                 android:text="@string/phone"
                 android:textAlignment="viewEnd"
                 android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold"
+                tools:ignore="VisualLintBounds" />
         </LinearLayout>
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
             android:background="#0091EA" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="5dp"
+            android:padding="@dimen/_5sdp"
             android:weightSum="6">
 
             <TextView
@@ -145,8 +147,9 @@
                 android:layout_weight="1"
                 android:text="@string/email"
                 android:textColor="#0091EA"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold"
+                tools:ignore="VisualLintBounds" />
 
             <TextView
                 android:id="@+id/pro_email_txt"
@@ -156,8 +159,9 @@
                 android:text="@string/email"
                 android:textAlignment="viewEnd"
                 android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold"
+                tools:ignore="VisualLintBounds" />
         </LinearLayout>
 
     </LinearLayout>
@@ -165,56 +169,59 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="17dp"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="17dp"
+        android:layout_marginStart="@dimen/_13sdp"
+        android:layout_marginEnd="@dimen/_13sdp"
+        android:layout_marginBottom="@dimen/_13sdp"
         android:background="@drawable/border"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="@dimen/_18sdp">
 
         <TextView
             android:id="@+id/showMyRecipe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp"
+            android:padding="@dimen/_5sdp"
             android:text="@string/my_recipes"
             android:textColor="#0091EA"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            tools:ignore="VisualLintBounds" />
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="#0091EA" />
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:background="#0091EA"
+            tools:ignore="VisualLintBounds" />
 
         <TextView
             android:id="@+id/showFavourite"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp"
+            android:padding="@dimen/_5sdp"
             android:text="@string/favourites"
             android:textColor="#0091EA"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            tools:ignore="VisualLintBounds" />
     </LinearLayout>
 
     <Button
         android:id="@+id/logoutButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="17dp"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_18sdp"
         android:backgroundTint="#0091EA"
         android:drawableEnd="@drawable/baseline_logout_24"
         android:onClick="loginPage"
         android:text="@string/logout"
         android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textSize="@dimen/_13ssp"
         android:textStyle="bold"
-        tools:ignore="ButtonStyle,VisualLintButtonSize" />
+        tools:ignore="ButtonStyle,VisualLintButtonSize,TouchTargetSizeCheck" />
 
 
 </LinearLayout>

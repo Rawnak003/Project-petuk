@@ -1,20 +1,14 @@
 package com.example.myapplication;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 public class profile extends AppCompatActivity {
 
@@ -39,7 +33,6 @@ public class profile extends AppCompatActivity {
                 finish();
             }
         });
-
     }
 
     public void showAllUserData(){
@@ -48,12 +41,12 @@ public class profile extends AppCompatActivity {
         String nameUser = intent.getStringExtra("name");
         String emailUser = intent.getStringExtra("email");
         String phoneUser = intent.getStringExtra("phone");
-        String usernameUser = intent.getStringExtra("username");
+        String usernameUser = intent.getStringExtra("userName");
 
         profileName.setText(nameUser);
         profileEmail.setText(emailUser);
         profilePhone.setText(phoneUser);
-        showName.setText(nameUser);
+        showName.setText(usernameUser);
         
     }
 
