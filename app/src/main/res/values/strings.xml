@@ -36,7 +36,7 @@
         <item>Dudh-citoi Pitha</item>
         <item>Puli Pitha</item>
         <item>Dudh-puli Pitha</item>
-        <item>Narikel Pitha</item>
+        <item>Telebhaja Pitha</item>
         <item>Patishapta</item>
         <item>Pantoya</item>
         <item>Malpoya</item>
@@ -57,6 +57,7 @@
         <item>Shandesh</item>
         <item>Chom chom</item>
         <item>Balish Misti</item>
+        <item>Cake</item>
         <item>Naru</item>
         <item>Payesh</item>
         <item>Semai</item>
@@ -68,12 +69,12 @@
         <item>Pitha</item>
         <item>Kebab</item>
         <item>Dessert</item>
-        <item>Salad</item>
         <item>Pizza</item>
         <item>Burger</item>
         <item>Coffee</item>
         <item>Soup</item>
         <item>Pasta</item>
+        <item>Salad</item>
         <item>Noodles</item>
     </string-array>
     <string name="s1">Flavors Unleashed</string>

@@ -15,8 +15,8 @@ public class CategoryName extends AppCompatActivity {
 
     private GridView gridView1;
     String[] Category;
-    int[] dish = {R.drawable.biriyani,R.drawable.special,R.drawable.pitha,R.drawable.kebab,R.drawable.dessert,R.drawable.salad,R.drawable.margherita,R.drawable.burger,R.drawable.coffee,R.drawable.soup
-            ,R.drawable.pasta,R.drawable.noodle};
+    int[] dish = {R.drawable.biriyani,R.drawable.special,R.drawable.pitha,R.drawable.kebab,R.drawable.dessert,R.drawable.margherita,R.drawable.burger,R.drawable.coffee,R.drawable.soup
+            ,R.drawable.pasta,R.drawable.salad,R.drawable.noodle};
 
     DrawerLayout drawerLayout;
     ImageView menu;

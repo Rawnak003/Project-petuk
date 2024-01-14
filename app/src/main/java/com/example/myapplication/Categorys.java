@@ -12,7 +12,6 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
 
 public class Categorys extends AppCompatActivity {
@@ -109,43 +108,109 @@ public class Categorys extends AppCompatActivity {
         });
 
         gridView2 = findViewById(R.id.GridView2);
-
-        Rname = getResources().getStringArray(R.array.Pizza);
-        int pic[] = {R.drawable.margherita,R.drawable.sousage,
-                R.drawable.bbq,R.drawable.heavy,R.drawable.cheese,
-                R.drawable.dual,R.drawable.ita};
-
-        CustomAdapter adapter = new CustomAdapter(this,Rname,pic);
-        gridView2.setAdapter(adapter);
-        gridView2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String Sname = Rname[i];
-                Intent intent1 = getIntent();
-
-                String nameUser = intent1.getStringExtra("name");
-                String emailUser = intent1.getStringExtra("email");
-                String phoneUser = intent1.getStringExtra("phone");
-                String usernameUser = intent1.getStringExtra("userName");
-
-                Intent in = new Intent(getApplicationContext(), Recipes.class);
-                in.putExtra("Rname",Sname);
-                in.putExtra("name", nameUser);
-                in.putExtra("email", emailUser);
-                in.putExtra("phone", phoneUser);
-                in.putExtra("userName", usernameUser);
-
-                startActivity(in);
-            }
-        });
-
+        int[] pic = new int[100];
         Intent intent2 = getIntent();
         if(intent2.getExtras() != null){
             String SelectedName = intent2.getStringExtra("Cname");
             txtView.setText(SelectedName);
-        }
+            switch (SelectedName) {
+                case "Biriyani":
+                    Rname = getResources().getStringArray(R.array.Biriyani);
+                    pic[0] = R.drawable.kacchi;
+                    pic[1] = R.drawable.pakki;
+                    pic[2] = R.drawable.beef;
+                    pic[3] = R.drawable.mutton;
+                    pic[4] = R.drawable.chicken;
+                    pic[5] = R.drawable.jorda;
+                    pic[6] = R.drawable.tehari;
+                    pic[7] = R.drawable.morog;
+                    break;
+                case "Special":
+                    Rname = getResources().getStringArray(R.array.Special);
+                    pic[0] = R.drawable.friedrice;
+                    pic[1] = R.drawable.rosogolla;
+                    pic[2] = R.drawable.kacagolla;
+                    pic[3] = R.drawable.kalai;
+                    pic[4] = R.drawable.bogradoi;
+                    pic[5] = R.drawable.khaja;
+                    pic[6] = R.drawable.chui;
+                    pic[7] = R.drawable.pera;
+                    pic[8] = R.drawable.mezban;
+                    break;
+                case "Kebab":
+                    Rname = getResources().getStringArray(R.array.Kebab);
+                    pic[0] = R.drawable.reshmi;
+                    pic[1] = R.drawable.boti;
+                    pic[2] = R.drawable.shik;
+                    pic[3] = R.drawable.shami;
+                    pic[4] = R.drawable.jali;
+                    pic[5] = R.drawable.tikka;
+                    pic[6] = R.drawable.dam;
+                    pic[7] = R.drawable.suti;
+                    break;
+                case "Pitha":
+                    Rname = getResources().getStringArray(R.array.Pitha);
+                    pic[0] = R.drawable.bhapa;
+                    pic[1] = R.drawable.citoi;
+                    pic[2] = R.drawable.dudhcitoi;
+                    pic[3] = R.drawable.puli;
+                    pic[4] = R.drawable.dudhpuli;
+                    pic[5] = R.drawable.televaja;
+                    pic[6] = R.drawable.patisapta;
+                    pic[7] = R.drawable.pantua;
+                    pic[8] = R.drawable.malpoa;
+                    pic[9] = R.drawable.jamai;
+                    break;
+                case "Dessert":
+                    Rname = getResources().getStringArray(R.array.Dessert);
+                    pic[0] = R.drawable.rosmalai;
+                    pic[1] = R.drawable.sandesh;
+                    pic[2] = R.drawable.chom;
+                    pic[3] = R.drawable.balish;
+                    pic[4] = R.drawable.cake;
+                    pic[5] = R.drawable.naru;
+                    pic[6] = R.drawable.payesh;
+                    pic[7] = R.drawable.semai;
+                    pic[8] = R.drawable.laddu;
+                    break;
+                default:
+                    Rname = getResources().getStringArray(R.array.Pizza);
+                    pic[0] = R.drawable.margherita;
+                    pic[1] = R.drawable.sousage;
+                    pic[2] = R.drawable.bbq;
+                    pic[3] = R.drawable.heavy;
+                    pic[4] = R.drawable.cheese;
+                    pic[5] = R.drawable.dual;
+                    pic[6] = R.drawable.ita;
+                    break;
+            }
+            CustomAdapter adapter = new CustomAdapter(this,Rname,pic);
+            gridView2.setAdapter(adapter);
+            gridView2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    String Sname = Rname[i];
+                    Intent intent1 = getIntent();
 
+                    String nameUser = intent1.getStringExtra("name");
+                    String emailUser = intent1.getStringExtra("email");
+                    String phoneUser = intent1.getStringExtra("phone");
+                    String usernameUser = intent1.getStringExtra("userName");
+
+                    Intent in = new Intent(getApplicationContext(), Recipes.class);
+                    in.putExtra("Rname",Sname);
+                    in.putExtra("name", nameUser);
+                    in.putExtra("email", emailUser);
+                    in.putExtra("phone", phoneUser);
+                    in.putExtra("userName", usernameUser);
+
+                    startActivity(in);
+                }
+            });
+        }
     }
+
+
     public void open4(View view) {
         startActivity(new Intent(this, Recipes.class));
     }
