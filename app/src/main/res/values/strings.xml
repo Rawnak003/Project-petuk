@@ -9,17 +9,72 @@
         <item>Dual Cake Pizza</item>
         <item>Italian Pizza</item>
     </string-array>
+    <string-array name="Biriyani">
+        <item>Kacchi Biriyani</item>
+        <item>Pakki Biriyani</item>
+        <item>Beef/Kalyani Biriyani</item>
+        <item>Mutton Biriyani</item>
+        <item>Chicken Biriyani</item>
+        <item>Jorda Biriyani</item>
+        <item>Beef Tehari</item>
+        <item>Morog Polao</item>
+    </string-array>
+    <string-array name="Special">
+        <item>Fried Rice</item>
+        <item>Roshogolla</item>
+        <item>Kachagolla</item>
+        <item>Kalai Ruti</item>
+        <item>Bogurar Doi</item>
+        <item>Tiler Khawja</item>
+        <item>Beef-chui</item>
+        <item>Pero Sandesh</item>
+        <item>Mezban</item>
+    </string-array>
+    <string-array name="Pitha">
+        <item>Bhapa Pitha</item>
+        <item>Citoi Pitha</item>
+        <item>Dudh-citoi Pitha</item>
+        <item>Puli Pitha</item>
+        <item>Dudh-puli Pitha</item>
+        <item>Narikel Pitha</item>
+        <item>Patishapta</item>
+        <item>Pantoya</item>
+        <item>Malpoya</item>
+        <item>Jamai Pitha</item>
+    </string-array>
+    <string-array name="Kebab">
+        <item>Reshmi Kebab</item>
+        <item>Boti Kebab</item>
+        <item>Shik Kebab</item>
+        <item>shami Kebab</item>
+        <item>Jali Kebab</item>
+        <item>Tikka Kebab</item>
+        <item>Dam Kebab</item>
+        <item>Shuti Kebab</item>
+    </string-array>
+    <string-array name="Dessert">
+        <item>Roshomalai</item>
+        <item>Shandesh</item>
+        <item>Chom chom</item>
+        <item>Balish Misti</item>
+        <item>Naru</item>
+        <item>Payesh</item>
+        <item>Semai</item>
+        <item>Laddu</item>
+    </string-array>
     <string-array name="Category">
+        <item>Biriyani</item>
+        <item>Special</item>
+        <item>Pitha</item>
+        <item>Kebab</item>
+        <item>Dessert</item>
+        <item>Salad</item>
         <item>Pizza</item>
         <item>Burger</item>
         <item>Coffee</item>
         <item>Soup</item>
-        <item>Biriyani</item>
-        <item>Kebab</item>
         <item>Pasta</item>
         <item>Noodles</item>
-        <item>Salad</item>
-        <item>Dessert</item>
     </string-array>
     <string name="s1">Flavors Unleashed</string>
     <string name="s2">Moments Created</string>
@@ -79,4 +134,11 @@
     <string name="confirm_password">Confirm password</string>
     <string name="new_password">New password</string>
     <string name="edit_password">Edit Password</string>
+    <string name="back">Back</string>
+    <string name="upload">Upload</string>
+    <string name="upload_an_image_first">Upload an image first</string>
+    <string name="upload_ingredient_list">Upload ingredient List (pdf)</string>
+    <string name="upload_procedure">Upload Procedure</string>
+    <string name="add">Add</string>
+    <string name="recipe_name">Recipe Name</string>
 </resources>

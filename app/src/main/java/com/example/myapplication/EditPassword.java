@@ -20,7 +20,7 @@ import com.google.firebase.database.ValueEventListener;
 public class EditPassword extends AppCompatActivity {
 
     String username;
-    Button saveButton;
+    Button saveButton,bButton;
     EditText editUserName,editPass;
     DatabaseReference reference;
     @Override
@@ -31,13 +31,10 @@ public class EditPassword extends AppCompatActivity {
         editPass = findViewById(R.id.edit_pass);
         editUserName = findViewById(R.id.edit_userName);
         saveButton = findViewById(R.id.save_button);
+        bButton = findViewById(R.id.back_to_login_button);
 
-        saveButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getUser();
-            }
-        });
+        bButton.setOnClickListener(v -> finish());
+        saveButton.setOnClickListener(v -> getUser());
 
 
 
