@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">My Application</string>
     <string-array name="Pizza">
         <item>Margherita Pizza</item>
@@ -38,15 +38,15 @@
         <item>Dudh-puli Pitha</item>
         <item>Telebhaja Pitha</item>
         <item>Patishapta</item>
-        <item>Pantoya</item>
-        <item>Malpoya</item>
+        <item>Pantua</item>
+        <item>Malpoa</item>
         <item>Jamai Pitha</item>
     </string-array>
     <string-array name="Kebab">
         <item>Reshmi Kebab</item>
         <item>Boti Kebab</item>
         <item>Shik Kebab</item>
-        <item>shami Kebab</item>
+        <item>Shami Kebab</item>
         <item>Jali Kebab</item>
         <item>Tikka Kebab</item>
         <item>Dam Kebab</item>
@@ -85,8 +85,10 @@
     <string name="ingredient">Ingredients</string>
     <string name="procedure">Procedure</string>
     <string name="download">Download Ingredient Amount List</string>
-    <string name="list">1. Flour\n2. Processed Cheese\n3. Baking Powder\n4. Dry Yeast\n5. Water\n6. Mozzarella\n7. Tomato ketchup\n8. Tomato\n9. Onions\n10. Chili Flakes\n11. Sugar\n12. Olive oil\n13. Mushrooms\n14. Capsicum (green pepper)\n15. Oregano</string>
-    <string name="pro">Step 1: Prepare the pizza dough by mixing all-purpose flour, salt, and baking powder. Add olive oil to a well in the center. Activate yeast with warm water and sugar, then add it to the flour. Let the dough rise for 4-6 hours.\nStep 2: Preheat the oven to 180°C. Roll out the pizza dough into a circular base, prick it with a fork, and bake for 10 minutes.\nStep 3: Chop capsicum, onions, tomatoes, and mushrooms. Grate processed and mozzarella cheese.\nStep 4: Spread tomato ketchup on the pizza base, add processed cheese, veggies, and top with mozzarella.\nStep 5: Bake at 250°C for 10 minutes. Remove, slice, and sprinkle with oregano and chili flakes. Serve hot.\n</string>
+    <string name="listPizza">1. Flour\n2. Processed Cheese\n3. Baking Powder\n
+        4. Dry Yeast\n5. Water\n6. Mozzarella\n7. Tomato ketchup\n8. Tomato\n9. Onions\n10. Chili Flakes\n11. Sugar\n12. Olive oil\n13. Mushrooms\n14. Capsicum (green pepper)\n15. Oregano</string>
+    <string name="proPizza">Step 1: Prepare the pizza dough by mixing all-purpose flour,
+        salt, and baking powder. Add olive oil to a well in the center. Activate yeast with warm water and sugar, then add it to the flour. Let the dough rise for 4-6 hours.\nStep 2: Preheat the oven to 180°C. Roll out the pizza dough into a circular base, prick it with a fork, and bake for 10 minutes.\nStep 3: Chop capsicum, onions, tomatoes, and mushrooms. Grate processed and mozzarella cheese.\nStep 4: Spread tomato ketchup on the pizza base, add processed cheese, veggies, and top with mozzarella.\nStep 5: Bake at 250°C for 10 minutes. Remove, slice, and sprinkle with oregano and chili flakes. Serve hot.\n</string>
     <string name="getStared">Get Started</string>
     <string name="recipe_image">Recipe Image</string>
     <string name="menu_bar_image">menuBarImage</string>
@@ -142,4 +144,405 @@
     <string name="upload_procedure">Upload Procedure</string>
     <string name="add">Add</string>
     <string name="recipe_name">Recipe Name</string>
+    <string name="kacchiList">2 lb mutton\n1 teaspoon ginger paste\n2
+        teaspoon garlic paste\n3-4 dry red chili\n2-3 stick of cinnamon, half inches each\n4-5 green cardamom\n1 teaspoon cumin\n½ teaspoon cloves\n½ teaspoon mace\n⅛ teaspoon nutmeg\n6-8 allspice (optional)\n½ teaspoon caraway seed (optional)\n3 tablespoon yogurt\n¾ cup ghee or butter\n5 medium potato\npinch of orange food color (optional)\n½ cup onion, thinly sliced\n4 cups basmati or kalijeera rice (I use a 160ml cup to measure my rice. Adjust accordingly)\n6 cups water\n½ cup condensed milk\n2 tablespoon milk\npinch of saffron\n10-12 alubokhara (pitted prunes)\n4 eggs, hard boiled\nSalt, according to taste</string>
+    <string name="kacchiPro"><b>1.	Steps to prepare the meat:</b>\nSprinkle some salt on the meat and let stand for 15-20 minutes. Wash the meat and drain all water. Take all the spice from red chili to caraway seed, grind. Take the pot where biryani will be cooked. Add the meat and yogurt, ground spice mix, garlic and ginger paste and salt. Marinate for anywhere between 30 minutes to overnight (see notes).\n
+        <b>2.	Steps to prepare the onion:</b>\nAdd about 3 tablespoons of butter/ghee on a frying pan on medium heat. Add very thinly sliced onion and sauté until fragrant and golden brown.\n
+        <b>3.	Steps to prepare the potato:</b>\nWash, peel and cut the potato in big chinks. Usually into 3 pieces for a medium Idaho potato. If using, rub some orange food color to the potato. Sprinkle some salt. Fry the potatoes until slightly golden on the same pan used for the onion.\n
+        <b>4.	Steps to prepare the rice:</b>\nWash rice and drain all water. Boil 6 cups of water. Add salt. Add the rice. Turn off the stove at the first sight of water boiling again (bubble forming on the water) after adding the rice. Rice will be uncooked at this point. Drain the rice completely saving the drained hot water in another clean pot.\n
+        <b>5.	Steps to assemble the biryani layers and cook:</b>\nPreheat oven to 350 degrees Fahrenheit. Soak the saffron to the milk. Add butter/ghee to 1 cup of hot water that was set aside in the rice preparing step. Add the prepared potatoes on top of the marinated meat. Sprinkle some fried onion. Add the Alu Bokhara(prunes), if using. Add half the water-butter mixture. Layer in the prepared rice. Sprinkle the saffron milk. Make 4-5 indentations from the rice layer through the potato till the meat. Add the condensed milk through the indentations. Sprinkle the remaining water-butter mixture. Sprinkle the remaining fried onion. Add the remaining hot water in a way that water doesn’t go above the rice layer. You may not need to use all of the hot water. Cook in the oven for 1.5 hours. Add the hard-boiled eggs. Serve with salad, kebab and chutney.\n
+    </string>
+    <string name="pakkiIng">2 lb. (cut them in larger pieces)\nRice (uncooked): (Kalogeria or Basmati): 1 Lbs.\nPotato: 4 (cut in half – vertically)\nOnion Paste: ¾ Cup\nGinger Paste: 1 ½ TBSP (tablespoon)\nGarlic Paste: 1 TBSP (tablespoon)\n
+        Yogurt: ¼ Cup\nRed Chili Powder: 1 TSP\nClove (lobongo): 4\nCardamom (Elachi): 4\nCinnamon (Darchini): 2 pieces, 1 inch each\nBay Leaf (Tej Pata): 2 small\nBiriyani Masala Mix: (Dry fry on a pan and then grind the following together to make the mix): ½ TSP each of whole Cumin, Coriander, Mace (Jaifal), Cardamom, Cloves, Black Pepper, and ¼ TSP of Mace (Jayatree or Javantri).\nMustard Oil: 2 TBSP (Tablespoon)\nVegetable Oil: 2 TBSP (Tablespoon)\n
+        Salt: 2 TSP (teaspoon)\nWhole spices to cook the rice: 1 Bay Leaf, 2 Cardamom, 2 pieces of Cinnamon and 1 medium sliced onion.\nGreen Chili: 10 Pieces\nMilk: ½ Cup\nPitted Prune (Aloo Bokhara): 6 – 10 pieces\nKeora Water: 1 TSP
+    </string>
+    <string name="pakkiPro"><b>1.</b> Cut the beef into big pieces..now marinaate it with 3/4th cup onion paste,1 and 1/2 (half) tbl spoon ginger paste, 1 tbl spoon garlic paste, 1/4th cup yogurt, red chilli powder, salt, elachi/cardamom, darchini/cinnamon, tejpata/bayleaf, , musturd oil( shorishar tel)+vegetable oil( half n half)…\n
+        <b>2.</b> Now cook the meat on medium heat. You need to cook it adding water little by little, that we call “Koshano” in Bangla for quite long..atleast for 1 hour..Add water covering the meat..cover with lid…When the gravy is reduced add potatos cut in lengthwise…But remember the potatos must not be fully done when the gravy is dried out….when the gravy is almost drying out add 1/4th (one-fourth cup) of regular milk.Dry out the gravy.\n
+        <b>3.</b> Microwave or dry roast cumin , whole corriander, cardamom,mace ( joyetree), nutmeg ( jaifol), black pepper, clove together…Grind them into a fine powder and add into the meat.\n
+        <b>4.</b>  Now in another vessel heat ghee and fry whole garam masalas. Add sliced onin..Fry until golden brown.Add 2 teaspoon of ginger paste and salt to taste.Add the uncooked rice/chaal .Add the meat.If your meat gathers some extra oil then put less ghee while cooking the rice. If You take 2 cups( measuring cup) of rice then add 3 cups of hot water. Cover the lid. Don’t stir.\n
+        <b>5.</b> Now when the water is almost dried out add plenty of green chilies, 1/4 th cup milk and dried plum/alubokhara. Turn your stove on low heat that we call to keep the biriyani on “Dom”. Sprinkle some keora water before serving!!!!!!!!!!! Bon A Petit!!!!!!!!\n
+    </string>
+    <string name="beefIng">1/2 kg Basmati Rice\n
+        2 kg Beef boneless\n
+        1/4 cup Ginger garlic paste\n
+        1 tsp Turmeric powder\n
+        2-3 tbsp Salt or to taste\n
+        3-4 tbsp Red Chilli powder\n
+        5-6 Green Chillies slit\n
+        2 tsp Garam Masala\n
+        2 small bunches Coriander Leaves finely chopped\n
+        2 bunches Mint Leaves\n
+        1/2 kg Yoghurt\n
+        750 ml Oil\n
+        1 kg Onions thinly sliced\n
+        12-14 Cloves\n
+        1 tbsp Caraway Seeds\n
+        3-4 Cinnamon sticks (1 inch)\n
+        6-7 Cardamom pods\n
+        6-7 Green Chillies whole\n
+        1 Lemon medium sized\n
+        as required Water for cooking Rice\n
+        1 tbsp Ghee\n
+        7-8 Saffron strands\n
+        1/4 cup Milk
+</string>
+    <string name="beefPro"><b>Step 1</b>\n
+        Marinate Beef with all the ingredients including the Yoghurt except the whole spices. Add the chopped Coriander and Mint too. Do not forget to add the raw Papaya paste too along with the Lemon juice.\n
+        <b>Step 2</b>\n
+        Keep enough water to boil for the rice. Soak rice only until the water starts boiling. That means, wash and soak Rice just as you keep water for cooking it. As soon as it starts boiling, add soaked Rice, whole spices, some chopped Mint and Coriander leaves to it. Also add a few Green Chillies.\n
+        <b>Step 3</b>\nRemember to boil it for about 20 minutes or just until it vigorously starts bubbling. The grains should be firm. Do not stir it hard. Otherwise they tend to break. Check if they can be easily crushed. This is the right time to switch off the heat. The rice needs to be about 90% cooked. Firm and not mushy. Drain the water and keep it aside.\n
+        <b>Step 4</b>\n
+        Meanwhile deep fry the sliced onions. Spread them on a plate and after about 5 minutes, crush them with your hands and add to the marination. Also add the Oil in which they are fried after it cools down. Mix well.\n
+        <b>Step 5</b>\n
+        Now comes the final part of slow cooking (called as dum). Layer the rice and meat as per your choice, only thing to taken care of is that the top most layer should be that of rice. Sprinkle some Saffron soaked milk on top. Add a generous dollop of ghee on top (optional) and cover it well either by an aluminium foil or a wet thick cotton cloth sealing the corners of the lid.\n
+        <b>Step 6</b>\n
+        I always prefer an aluminium foil. For the first 15 minutes, keep it on a high heat, rotating the vessel every now and then. After 15 minutes, lower the heat and let it simmer for about 30-35 minutes. Turn off the heat after the stipulated time and let the Biryani sit for sometime.\n
+        <b>Step 7</b>\n
+        Serve hot with Burhani raita or plain curd and Baghare Baingan alongside. Mirchi ka Saalan is also a lovely combination that one can consider. Enjoy!\n
+    </string>
+    <string name="friedRiceIng">⅔ cup chopped baby carrots\n
+        ½ cup frozen green peas\n
+        2 tablespoons oil\n
+        Vegetables\n
+        1 clove garlic, minced, or to taste (Optional)\n
+        2 onions chopped\n
+        2 large eggs\n
+        3 cups leftover cooked and chilled white rice\n
+        1 tablespoon soy sauce, or more to taste\n
+        Tomato ketchup\n
+    </string>
+    <string name="friedRicePro">Step 1:\n
+        Place carrots in a small saucepan and cover with water. Bring to a low boil and cook for 3 to 5 minutes. Stir in peas, then immediately drain in a colander.\n
+        Step 2:\n
+        Heat a wok over high heat. Pour in vegetable oil, then stir in carrots, peas, and garlic; cook for about 30 seconds. Add eggs; stir quickly to scramble eggs with vegetables.\n
+        Step 3:\n
+        Stir in cooked rice. Add soy sauce and toss rice to coat. Drizzle with sesame oil and toss again.\n
+    </string>
+    <string name="rosogollaIng">2 litre milk, full cream\n2 tbsp lemon juice\n
+        1 cup sugar\n5 cup water\n3 pod cardamon</string>
+    <string name="rosogollaPro">Firstly, in a large vessel get 2-liter milk of milk to a boil stirring occasionally. Once the milk comes to a boil, pour 2 tbsp lemon juice and stir well. you can alternatively use curd or vinegar. Stir until the  milk curdles keeping the flame on low to medium. Do not boil further once water separates completely. Drain the curdled milk over a cloth-lined over a colander. you can use the leftover water to make soup or knead the dough as they are very nutritious. Squeeze off the water completely. be careful as the curdled milk will be very hot. Rinse off the curdled milk with fresh water to remove sourness from lemon juice. Squeeze off the water completely. do not over
+        squeeze as the moisture in paneer will be lost. Hang for 1 hour making sure the water is drained completely, yet remain the moisture. After 1 hour, start to mash the paneer for 5 minutes. Mash the paneer till it turns out smooth texture without any grains of paneer. Now prepare small ball sized paneer and keep aside. cover and keep to prevent from drying. In a large vessel take 1 cup sugar, 5 cup water and 3 pod cardamom. Stir and dissolve the sugar completely. Now boil the water for 5 minutes. Drop in rolled paneer balls one by one into boiling sugar water. Cover and boil for 10 minutes
+        or until rasgulla doubles in size. Now drop into ice-cold water
+        immediately, to prevent from shrinking in size. Once cooled completely, take into a serving bowl and pour in leftover sugar water. Finally, enjoy rasgulla chilled or as it is.
+    </string>
+    <string name="kachagollaIng">Milk Cheese\n
+2 liters Milk\n
+4 tbsp Vinegar\n
+4 tbsp Water\n
+2 tbsp Sugar\n
+4 tbsp Condensed Milk\n
+½ cup Milk Powder\n
+1 tsp Pistachios
+</string>
+    <string name="kachagollaPro">Bring milk to boiling point then turn off the heat and add vinegar-water mix. Drain out the liquid using a cheesecloth, squeeze out any excess liquid from the milk cheese.
+        Take about half the amount of milk cheese, add sugar and knead for 10 minutes. Transfer the knead milk cheese to a pan and cook for 4 minutes on low heat. Pour condensed milk and cook for 6-8 minutes until water evaporates. Mix the cooked milk cheese with the uncooked milk cheese using your hand. Knead well then create a small spherical shape. Coat well with milk powder and garnish with pistachios. Ready to Enjoy!</string>
+    <string name="kalaiIng">100 gm Chal-er-aata\n
+        150 gm mashkalai-er-aata\nSalt\nWater</string>
+    <string name="kalaiPro">Along with salt and water as needed,
+        use 150 grams of mashkalai-er-aata and 100 grams of chaal-er-aata to make the dough. Unlike our usual ruti, this one does not require rolling pin. Instead, one wets the palms and brings the dough to the ruti shape. Then, put it on stove over a clay pot to make the kalai ruti.</string>
+    <string name="doiIng">Milk 2 kg\nsugar 250g\nold doi\n
+        a pot made with soil</string>
+    <string name="doiPro">Strain the milk into a clean pan or pot.
+        Place the pan in the oven. Now keep burning. The slower the fire burns in the stove, the tastier the curd will be. Now decide whether to make white or ghee colored curd. If you want to make white curd, remove the pan after a couple of hours. And keep the pan in the oven for three to three and a half hours for ghee colored curd.\n\nBoil the milk and when it comes from two kg to one kg, pour sugar in it. Wait until the sugar melts. When the milk boils, remove the pan. Wait until it cools down. Heat the earthen pot or sarah a little. Now pour cold milk. Mix well a pinch of old curd with milk. Now jump and cover the sara. Put it on the fire and leave it for four hours. If it does not clot, take another hour and a half to two hours. Serve chilled after freezing.</string>
+    <string name="BhapaIng">1 cup warm water\n
+        1 tsp salt\n
+        3 ½ cups rice flour\n
+        1 coconut\n
+        1/2 cup jaggery </string>
+    <string name="BhapaPro">Dissolve salt in warm water and set aside.
+        Mix rice flour water the water. Cover the rice flour with a towel for 20 minutes. Take a fresh small coconut and shred. Run the rice flour through a strainer to obtain fine grain texture. Place the rice flour in a palm size mold cup and gently press down with a spoon. Add jaggery bits and shredded coconut on top. Gently cover the jaggery and coconut with more rice flour on top and then wrap it with a wet cheese cloth. Place the wrapped pitha on top of the pot with water that has been sealed with a cheese cloth for indirect heat. Cover with a lid and cook the pitha for about 3 minutes until delicately soft. Remove from heat and repeat the steps until all ingredients have been used up. Serve pitha warm or cold as desired. Ready to enjoy!</string>
+    <string name="tilerIng">Sugar\n
+Sesame\n
+Milk\n
+Cardamom\n
+Water
+</string>
+    <string name="tilerPro">First, sugar, water, milk, etc.
+        are boiled in a pan for ten to twelve minutes. In this way the sugar will melt and mix with other ingredients. This hot mixture or pure sugar is then poured out of the pot to cool. When it cools down, the sticky sugar mixture or paste is lifted and tied in a loop. Usually after a few minutes the two of them complete the process of pulling and lengthening this adhesive mixture. This causes the inside to swell and the color to turn white.</string>
+    <string name="chuiIng">1 kg beef\n
+        250 gm chui jhal\n
+        1 cup onion sliced\n
+        2 tbsp ginger paste\n
+        1 tbsp garlic paste\n
+        1 tbsp cumin paste\n
+        1 tbsp turmeric powder\n
+        1 tbsp red chili powder\n
+        1 tbsp coriander powder\n
+        salt to taste\n
+        1/2 tsp nutmeg powder\n
+        1/2 tsp mace powder\n
+        1/2 cup oil\n
+        2-3 pcs bay leaves\n
+        2-1 pcs cinnamon\n
+        3-4 pcs cardamom\n
+        10-12 pcs black pepper\n
+        3-4 pcs cloves\n
+        3-4 pcs dried chilies\n
+        4-5 pcs garlic medium\n
+        3 cups water hot\n
+        1 tsp cumin powder
+    </string>
+    <string name="chuiPro">Take a stem/twig/root of Chui. Peel the skin. Cut them into pieces around 1 1/2-inch long. Wash them properly. Turn off the stove. In a pan take beef (cleaned). The beef pcs should be slightly larger than usual. Add onion slices, ginger paste, garlic paste, cumin paste, turmeric powder, red chili powder, coriander powder, salt, nutmeg powder, mace powder, oil, bay leaves, cinnamon, cardamom, black pepper, and cloves. Mix well using the hand. The beef should be mixed with masala very well. The better the mixing, the better the taste. Add water (a little), washing the spices. Close the lid and turn on the stove. Cook for 15 minutes (medium heat). Stir occasionally. Add dried chilies. Give a stir. Cook for 15 minutes (medium heat). Stir occasionally. When oil separates, add chui pcs. Give a stir. Add whole garlic. Do not cut all the garlic roots. put a layer of the peel on the garlic. Give a stir. Cook for 5 minutes (medium heat). Add 3 cups of hot water. Close the lid. Cook for 40 minutes (medium-low heat). Stir occasionally. Add cumin powder. Give a good mix. Cook for another 10 minutes (low heat).
+        When oil separates, the beef chui jhal is ready to serve. Serve hot!</string>
+    <string name="peraIng">
+        Instant Milk Pera\n
+        ½ cup milk\n
+        ½ cup of sugar\n
+        2 cups of milk powder\n
+        2 tbsp ghee\n
+        ¼ tsp cardamom powder
+    </string>
+    <string name="peraPro">Dissolve sugar in milk. Stir in milk powder. Mix and mash on low flame. Add ghee and cardamom powder. Turn off the heat and mix well until smooth and soft. Let it cool for 2 minutes. Create round shape balls and press down in the center with your thumb.
+        Place pistachio in the center before serving. Ready to Enjoy!</string>
+    <string name="mezbanIng">
+        Red meat 1.5 kg\n
+        Diced onion 1 cup\n
+        Cinnamon 3 small sticks\n
+        Cardamom 4 pcs\n
+        Red chili 5 pcs\n
+        Bay leaves 3\n
+        Nut paste 2 tbsp\n
+        Garlic paste 1.5 tbsp\n
+        Ginger paste 1 tbsp\n
+        Poppy seeds paste 1 tsp\n
+        Mustard paste 1 tsp\n
+        White pepper 1 tsp\n
+        Cumin powder 1 tsp\n
+        Turmeric powder 1 tsp\n
+        Coriander powder 1 tsp\n
+        Red chili powder 1 tsp\n
+        Garam masala 1 tsp\n
+        Mace powder 1/4 tsp\n
+        Salt 1 tsp\n
+        Cooking oil 1 cup\n
+        Green chili optional\n
+        Ghee 1 tbsp
+    </string>
+    <string name="mezbanPro">In a heavy bottom pan add all the ingredients (not including ghee and green chili) and mix well. Once all the ingredients mix well with the meat turn on the heat. And cook over med-low heat for 50-60 min. (stir occasionally to prevent meat and spices from sticking to the pan). After an hour and 1/4 cup of water if needed (for gravy), add green chili and 1 tablespoon of ghee or butteroil.
+        Cover and cook for another 5 min at low heat. Enjoy!</string>
+    <string name="citoiIn">2 cups rice flour\n
+        1 cup water (approximately)\n
+        1/2 teaspoon salt\n
+        2 tablespoons sugar (optional)\n
+        Oil for frying
+        </string>
+    <string name="citoiPro">In a mixing bowl, combine the rice flour, salt, and sugar (if using). Gradually add water while stirring to make a smooth, lump-free batter. The consistency should be thicker than a regular pancake batter but pourable. Let the batter rest for about 15–20 minutes. Heat a non-stick skillet or frying pan over medium heat. Lightly grease the pan with oil. Pour a ladleful of batter onto the center of the pan and quickly spread it out into a thin, round shape (like a crepe or pancake) using the back of the ladle. You can also use a circular motion of the pan to spread the batter thinly. Cook for a couple of minutes until the edges start to lift and the bottom turns lightly golden. You can cover the pan with a lid for cooking if needed. Carefully flip the pitha using a spatula and cook the other side for another minute or so until it’s cooked through and lightly golden. Repeat the process with the remaining batter,
+        greasing the pan lightly each time before pouring the batter.</string>
+    <string name="dudhCitoiIn">2 cups rice flour\n
+        2 kg milk\n
+        1 cup water (approximately)\n
+        1/2 teaspoon salt\n
+        2 tablespoons sugar (optional)\n
+        Oil for frying
+        </string>
+    <string name="dudhCitoiPro">In a mixing bowl, combine the rice flour, salt, and sugar (if using). Gradually add water while stirring to make a smooth, lump-free batter. The consistency should be thicker than a regular pancake batter but pourable. Let the batter rest for about 15–20 minutes. Heat a non-stick skillet or frying pan over medium heat. Lightly grease the pan with oil. Pour a ladleful of batter onto the center of the pan and quickly spread it out into a thin, round shape (like a crepe or pancake) using the back of the ladle. You can also use a circular motion of the pan to spread the batter thinly. Cook for a couple of minutes until the edges start to lift and the bottom turns lightly golden. You can cover the pan with a lid for cooking if needed. Carefully flip the pitha using a spatula and cook the other side for another minute or so until it’s cooked through and lightly golden. Repeat the process with the remaining batter, greasing the pan lightly each time before pouring the batter.
+        \nOnce cooked, stack the Chitoi Pithas on a bowl and put milk on the bowl and wait 3-4 hours until the pithas absorb the milk.
+</string>
+    <string name="puliIn">
+        Ground coconut 1 cup\n
+        Melted Jaggery / Gur 1/4 cup\n
+        Cinnamon 1 stick\n
+        Cardamom 3 pcs\n
+        Oil 1 tsp\n
+        Water 1 cup\n
+        Salt to taste\n
+        Rice flour 1 cup\n
+        Milk 1 liter\n
+        Sugar 1/4 cup\n
+        Ground coconut 2 tbsp\n
+        Melted Jaggery / Gur 1/4 cup
+    </string>
+    <string name="puliPro">
+        On a heated pan, add ground coconut, melted jaggery/gur, cinnamon and cardamom. Stir and mix all ingredients together until the mixture becomes slightly sticky. Remove from heat and keep aside to be used as filling.\n
+Add 1 tsp oil in a heated saucepan, add water and salt to taste. Let the water come to a boil and add rice flour. Close lid and reduce heat to low flame and let it cook for 5 minutes. After 5 minutes, stir the mixture to form a soft dough. Remove dough onto a plate and while the dough is still warm, knead well (allow it to cool slightly if its too hot!). Adjust water and flour as required while kneading. Divide dough into small equal sized balls and roll them into thin round circles. You can also use a cutter to cut out round circles.\n
+Add the coconut filling on one side in each pitha. Fold and twist the edges to close the pitha. Set aside.\n
+In a heated pan, add milk and sugar. Once the milk starts to boil, add the pithas. Add ground coconut and let the pithas cook for 10-15 minutes at medium-low heat. Stir gently so the milk does not burn at the bottom of the pan, careful to not break the pithas while stirring. Once the pithas are cooked, turn off the heat and add melted jaggery. Gently stir and mix it with the thickened milk.
+
+    </string>
+    <string name="patisaptaIn">Rice flour 1 cup\n
+Suji/ Samolina 1/2 cup\n
+White all purpose flour 1/2 cup\n
+Salt to taste\n
+Water (warm) 2 1/2 cup\n
+Evaporated milk 1 1/2 cup\n
+Suji / Samolina 2 tbsp\n
+Ghee 1 tbsp (optional)\n
+Gur / Jaggery 2 tbsp
+</string>
+    <string name="patisaptaPro">In a bowl, add rice flour, suji/samolina, white flour, salt. Mix all dry ingredients together. Add water in small amounts while whisking all ingredients together. Make sure there are no lumps in the batter.
+Rest it for 15 minutes.\n
+Heat a pan at medium flame, grease the bottom of the pan with oil. Add evaporated milk, suji (samolina), ghee, gur and mix all ingredients well. Continuously stir until the evaporate milk reduces and the mixture forms a thick paste. Remove the pan from heat and keep aside to be used as filling for the pitha.\n
+Heat a non stick pan (medium-high heat), grease the bottom with oil. Gently stir the batter and pour a spoonful of batter onto the centre of the pan. Slightly move/twist the pan so the batter distributes all sides making a round shape. Allow for one side to cook well (roughly 2 mins). Using a spoon, add the filling to one side and start rolling the pitha from one side until the end. Be careful as the pitha will be very hot! Remove pitha and grease the pan again before making next pitha.
+</string>
+    <string name="reshmiIn">
+        Chicken Breast - 1.5 lbs\n
+        Coriander Leaves ½ cup\n
+        Mint Leaves ½ cup\n
+        Green Chilli 2-3 pcs\n
+        Lime Juice 1 tbsp\n
+        Ginger Paste 1 tsp\n
+        Garlic Paste 1 tsp\n
+        Drained Plain Yogurt ½ cup\n
+        Milk Powder ¼ cup\n
+        Sugar ½ tsp ( Optional )\n
+        Salt to taste
+    </string>
+    <string name="reshmiPro">Clean and pat dry the chicken breast using a paper towel. Cut the chicken breasts in bite-sized cubes. Place them in a mixing bowl. In a food processor add coriander leaves, mint leaves, green chilli, lime juice and salt to taste. Make a smooth paste and pour it over the chicken cubes. Add ginger paste, garlic paste, drained plain yogurt/ hung curd, milk powder, sugar (optional) and salt to taste. Cover and leave to marinate for couple hours. The longer they marinate, the softer and tender the meat turns out. Add 1 tsp of oil and give everything a mix. Gently place the meat onto the skewers. Heat a non-stick frying pan /grill pan over medium high heat, add 1 tbsp of butter. Once the butter melts, add the skewers and cook them for 15 mins on each side until they brown. Reduce the flame to low and continue to cook while you prepare the charcoal. Heat charcoal on stove untill it turns red at the edges and a layer of white ash forms. Place the glowing coal in a small metallic dish and place on the frying pan. Drop 1 tsp of ghee on the coal and cover the frying pan with the lid.
+        Set aside to smoke for about 5 minutes. </string>
+    <string name="botiIn">
+        Chicken Breast 2\n
+        Salt 1 tsp\n
+        Chili flakes 1 tsp\n
+        Garam masala 1 tsp\n
+        Red chili 1 tsp\n
+        Coriander 1 tsp\n
+        Garlic paste 1 tsp\n
+        Ginger paste 1 tsp\n
+        Onion paste 2 tbsp\n
+        Poppy seed paste 1 tsp\n
+        Plain/Natural yogurt 4 tbsp\n
+        Fried onions 2-3 tbsp\n
+        Papaya paste 1 tsp\n
+        Roasted Gram Flour 2 ½ tsp\n
+        Mustard oil 2 tbsp
+
+    </string>
+    <string name="botiPro">Cut the chicken breasts into cubes. In a bowl add all the marinade ingredients and mix the chicken pieces well. Bring a heated coal at the center of the bowl and pour ghee on top to create smoke (cover and smoke for a minute). Remove the coal. and marinate the chicken pieces for another 20-30 minutes. Heat oil in a flat pan over moderate flame. Add the chicken pieces and cook for about 12 minutes or till little moisture remains. Turn the pieces frequently so that it cooks evenly.
+Remove and serve hot with a salad and chutney of choice. Enjoy!
+</string>
+    <string name="shamiIn">
+        Water 2 cups\n
+        Red meat, mince 1/2 kg\n
+        Split Chickpea 1 cup\n
+        Onion chopped 1/4 cup\n
+        Garlic paste 1 tsp\n
+        Ginger paste 1 tsp\n
+        Cumin seeds 1 tbsp\n
+        Coriander seeds 1 tbsp\n
+        Dry red chilli 10 pcs\n
+        Garam masala 1 tbsp\n
+        Salt to taste\n
+        Onion chopped 1/4 cup\n
+        Green chilli, halved 5 pcs\n
+        Cilantro leaves 1/4 cup\n
+        Fried onions 1/4 cup\n
+        Egg 1\n
+        Hung curd (Yogurt drained of all its water)  2 tbsp\n
+        Corn starch 2 tbsp
+    </string>
+    <string name="shamiPro">In a large saucepan, add water, red meat, split chickpeas, chopped onions, garlic paste, ginger paste, cumin seeds, coriander seeds, dry red chilli, garam masala powder. Add salt to taste.\n
+Cook under closed lid for 20 minutes, until the daal ( chickpeas) and meat is cooked through and all the water has evaporated. Remove from heat and set aside.\n
+In a food processor, add chopped onions, halved green chilli, coriander leaves and fried onions. Cover and pulse to grind everything. Add the ground meat mixture and grind again until it forms a fine pasty mixture.\n
+Remove into a bowl, add 1 egg, hung curd and corn starch. Mix everything well.\n
+Divide the mixture equally and shape each of them into round-flat patties.\n
+Heat oil in a pan. Break an egg in a separate bowl and lightly beat it using a fork or whisk. Dip the kabab patties in the egg wash and deep-fry them.\n
+Once they are brown on both sides, they are ready to be served. Remove and drain the excess oil on kitchen towels.
+</string>
+    <string name="rasmalaiIn">
+        Milk 1 liter\n
+        Cornstarch 1 tsp\n
+        Vinegar 4 tbsp + 1/4 cup of water\n
+        Water 4 cups\n
+        Sugar 1 cup\n
+        Milk 3 cups\n
+        Sugar 2 tbsp
+
+    </string>
+    <string name="rasmalaiPro">Pour 1 liter of milk in a heavy bottom pan and bring it to a boil.
+When it starts boiling, turn off the heat and wait for 2-3 minutes.
+Mix the vinegar with water and pour 2 tablespoons at a time in the milk and stir gently.
+When the milk has curdled completely, pour it into a cheesecloth, and hang it for 40-50 min.
+Take the chana on a plate and add 1 tsp cornstarch. Knead for 4-5 min and make small oval-shaped sweets.\n
+Add 4 cups of water and add 1 cup of sugar in a pan and bring it to a boil.
+Now add the sweets to the syrup and cook for 20 min over med heat.\n
+Once cooked, place them in a bowl and cool them completely.
+Add 3 cups of milk in a heavy bottom pan and heat until it reduces to half (stir constantly).
+Add 2 tbsp of sugar, cardamom, almonds, and pistachio.
+Squeeze out the syrup from the sweets and bring them to the Malai.
+Enjoy!
+</string>
+    <string name="chomIn">
+        5 ½ cups whole milk\n
+4 tbsp vinegar + ¼ cup water\n
+2 tsp semolina/suji\n
+Pinch of baking powder\n
+2 ½ cups of sugar\n
+2 green cardamom
+
+    </string>
+    <string name="chomPro">Bring the milk to boil. After the first boil turns off the heat then add vinegar mix (4 tbsp vinegar+ ¼ cup water).
+Set a cheesecloth on a sieve and pour the curdled milk onto the cloth, wash it under running water and press the chenna gently to remove the excess water completely.
+Bring the chenna to a bowl. Add semolina (suji), a pinch of baking powder and knead for 5-6 minutes until the mixture is smooth.
+Heat 4 cups of water and add 2½ cups of sugar. Let boil
+Now form small sized balls from the dough and make 12-14 oval-shaped balls.
+When the sugar syrup begins to boil, add chom chom, 2 green cardamoms and boil them for 20 minutes over high heat.
+After 20 minutes start adding 1 cup of water every hour for 3 hours over med heat.
+When the desired color of the sweets is reached, take it off the heat. Store the sweets along with the sugar syrup.
+</string>
+    <string name="balishIn">
+        2 liters milk\n
+2 tbsp vinegar\n
+1 tbsp semolina\n
+1 tsp all-purpose flour\n
+pinch of baking soda\n
+5-6 tbsp sugar\n
+water as required\n
+saffron
+rabdi
+
+    </string>
+    <string name="balishPro">Heat milk in a pan and let it boil for some time. Once the milk boils, remove it from the flame and add vinegar to it. The milk will curdle and chhena will be formed. Put the chhena in a muslin cloth and give it a squeeze. Put this chhena in a bowl of cold water and again squeeze hard to remove excess water. Now remove the chhena in a parat and knead the chhena till it becomes smooth. Next add semolina, baking soda and all-purpose flour to it, mix well, knead again and then cover with a wet muslin cloth.For making sugar syrup, mix water and sugar in a pan and caramelise the sugar. Once the sugar caramelises, add some more sugar and water to it and make sugar syrup.Make round balls from chhena and give them a cylindrical shape. Add them in sugar syrup and cover the pan with a lid and let Balish cook for 40-45 minutes. After 45 minutes, place Balish Mishti in a serving plate and pour some sugar syrup on it. Garnish with saffron and add some
+        rabdi on it. Balish Mishti is ready to serve.</string>
+    <string name="cakeIn">
+        1 cup white sugar\n
+½ cup unsalted butter\n
+2 large eggs\n
+2 teaspoons vanilla extract\n
+1 ½ cups all-purpose flour\n
+1 ¾ teaspoons baking powder\n
+½ cup milk
+
+    </string>
+    <string name="cakePro">Preheat the oven to 350 degrees F (175 degrees C). Grease and flour a 9-inch square cake pan.
+Cream sugar and butter together in a mixing bowl. Add eggs, one at a time, beating briefly after each addition. Mix in vanilla. Combine flour and baking powder in a separate bowl. Add to the wet ingredients and mix well. Add milk and stir until smooth. Pour batter into the prepared cake pan. Bake in the preheated oven until the top springs back when lightly touched, 30 to 40 minutes. Remove from the oven and cool completely.
+</string>
+    <string name="naruIn">
+        Scraped Coconut of 2 Medium size Coconuts\n
+Jaggery – 1 cup\n
+Sugar – 1/2 cup\n
+Khoya – 1/3 cup
+    </string>
+    <string name="naruPro">
+        Take a non-stick pan, add the scraped coconut, Jaggery/Gur, sugar altogether and mix all the ingredients using your hand. Now place the pan on low heat. Stir it to check that it is not burning. Cook this on low flame so that you will know that it is slowly forming a mass. If you want to make it sticky and love the deep brownish hue then add two to three tablespoon Jaggery more. It’s important to adjust the quantity of Jaggery as per your taste. Keep cooking on low flame till all the Jaggery melts and is well mixed into the coconut. When the mixture starts looking little sticky. Add the khoya and mix with it. Now turn off the heat when you see forming of small lumps in the mixture. Remove the mixture immediately from the non-stick pan and spread it out on a plate. Take 2 tablespoons of coconut mix and roll into a ball. The Naru has to be formed while the mix is still warm, almost hot (be cautious). You must give the warm mixture a desired shape because if the mixture cools down you will not be able to give it shape. Now, make the rest of the Naru and let them cool down completely. Your “Gurer Naru” is ready to serve.
+    </string>
+    <string name="payeshIn">
+        1/2 Cup basmati rice\n
+2 litre milk\n
+4 tbsp sugar\n
+4 tbsp rice\n
+1 tbsp ghee\n
+2 Green cardamom\n
+for garnishing raisins\n
+for garnishing almonds , sliced\n
+for garnishing cashew nuts, chopped\n
+for garnishing rosewater
+
+    </string>
+    <string name="payeshPro">Wash and wipe the rice and dry it on a plate and leave aside. Heat milk in a large pan. Simmer till it is reduced to 3 quarters of its original volume. Add a tbsp of ghee to the washed rice and mix it. Add the rice to the milk. Put in the sugar when the rice is slightly tender. Continue cooking until milk is reduced to half its volume and starts thickening. Now add the raisins, almonds, and chopped cashew nuts, green cardamom powder. Remove from heat and add the rose water.
+        Cool and serve.</string>
+    <string name="semaiIn">4 cups Whole Milk\n
+200 g Vermicelli\n
+½ tbsp Ghee/Clarifed Butter\n
+½ cup Granulated white sugar\n
+2 Cardamom pods\n
+2 sticks Cinnamon\n
+2 Bayleaves
+</string>
+    <string name="semaiPro">Mix 1/4 th cup powder milk into the regular liquid milk and boil with 2 cardamoms and a small stick of cinnamon. Add sugar. Boil the colorful shemai and wash and drain out the water. If you wish you can boil them in the milk, but in that case increase the quantity of milk as it needs more time to get done. Dry roast or roast the regular vermicelli with little oil. Don’t burn it out. Now mix both the shemai with milk and cook for 2/3 minutes or so or until the regular shemai is cooked. Sprinkle some rose water. Take out the garam masala from the shemai.
+        Pour in a serving dish and when little cooled down garnish with dried nuts and raisins.</string>
+
+
+
+    
+
 </resources>

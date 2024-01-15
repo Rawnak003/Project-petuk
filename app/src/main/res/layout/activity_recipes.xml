@@ -78,7 +78,7 @@
                     android:id="@+id/IngredientTextId"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/list"
+                    android:text="@string/kacchiList"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_11ssp" />
             </LinearLayout>
@@ -111,7 +111,7 @@
                     android:id="@+id/procedureTextId"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/pro"
+                    android:text="@string/kacchiPro"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_12ssp"
                     tools:ignore="VisualLintLongText" />

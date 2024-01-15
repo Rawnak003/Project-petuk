@@ -14,9 +14,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.util.Objects;
+
 public class Categorys extends AppCompatActivity {
 
-    private GridView gridView2;
     private String[] Rname;
     TextView txtView;
     DrawerLayout drawerLayout;
@@ -107,13 +108,13 @@ public class Categorys extends AppCompatActivity {
             }
         });
 
-        gridView2 = findViewById(R.id.GridView2);
+        GridView gridView2 = findViewById(R.id.GridView2);
         int[] pic = new int[100];
         Intent intent2 = getIntent();
         if(intent2.getExtras() != null){
             String SelectedName = intent2.getStringExtra("Cname");
             txtView.setText(SelectedName);
-            switch (SelectedName) {
+            switch (Objects.requireNonNull(SelectedName)) {
                 case "Biriyani":
                     Rname = getResources().getStringArray(R.array.Biriyani);
                     pic[0] = R.drawable.kacchi;
