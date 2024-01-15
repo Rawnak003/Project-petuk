@@ -34,7 +34,16 @@ public class EditPassword extends AppCompatActivity {
         bButton = findViewById(R.id.back_to_login_button);
 
         bButton.setOnClickListener(v -> finish());
-        saveButton.setOnClickListener(v -> getUser());
+        saveButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!validateUsername() | !validatePassword()) {
+                    return;
+                } else {
+                    getUser();
+                }
+            }
+        });
 
 
 
@@ -62,7 +71,26 @@ public class EditPassword extends AppCompatActivity {
             }
         });
     }
-
+    public Boolean validateUsername() {
+        String val = editUserName.getText().toString();
+        if (val.isEmpty()) {
+            editUserName.setError("Username cannot be empty");
+            return false;
+        } else {
+            editUserName.setError(null);
+            return true;
+        }
+    }
+    public Boolean validatePassword(){
+        String val = editPass.getText().toString();
+        if (val.isEmpty()) {
+            editPass.setError("Password cannot be empty");
+            return false;
+        } else {
+            editPass.setError(null);
+            return true;
+        }
+    }
     public void update(String p) {
 
         if(isPasswordChanged(p)){
