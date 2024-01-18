@@ -111,7 +111,6 @@ public class appLogin extends AppCompatActivity {
                     loginUsername.requestFocus();
                 }
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
 
