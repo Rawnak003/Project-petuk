@@ -42,22 +42,47 @@
             android:textColor="@color/black"
             android:textColorHint="#808080"
             tools:ignore="TextFields,VisualLintTextFieldSize,TextContrastCheck,VisualLintBounds" />
-        <EditText
-            android:id="@+id/upload_recipe_name"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_40sdp"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:background="@drawable/border"
-            android:drawableStart="@drawable/baseline_restaurant_24"
-            android:drawablePadding="@dimen/_8sdp"
-            android:hint="@string/recipe_name"
-            android:importantForAutofill="no"
-            android:inputType="text"
-            android:padding="@dimen/_8sdp"
-            android:textColor="@color/black"
-            android:textColorHint="#808080"
-            tools:ignore="TextFields,VisualLintTextFieldSize,TextContrastCheck,VisualLintBounds" />
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <EditText
+                android:id="@+id/upload_recipe_name"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/border"
+                android:drawableStart="@drawable/baseline_restaurant_24"
+                android:drawablePadding="@dimen/_8sdp"
+                android:hint="@string/recipe_name"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="@dimen/_8sdp"
+                android:textColor="@color/black"
+                android:textColorHint="#808080"
+                tools:ignore="TextFields,VisualLintTextFieldSize,TextContrastCheck,VisualLintBounds" />
 
+            <EditText
+                android:id="@+id/upload_category_name"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/border"
+                android:drawableStart="@drawable/baseline_restaurant_24"
+                android:drawablePadding="@dimen/_8sdp"
+                android:hint="@string/category_name"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="@dimen/_8sdp"
+                android:textColor="@color/black"
+                android:textColorHint="#808080"
+                tools:ignore="TextFields,VisualLintTextFieldSize,TextContrastCheck,VisualLintBounds" />
+
+
+        </LinearLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -69,8 +94,8 @@
             android:layout_marginTop="@dimen/_8sdp"
             android:backgroundTint="#E0F6FF"/>
         <ImageView
-            android:layout_width="@dimen/_90sdp"
-            android:layout_height="@dimen/_90sdp"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
             android:src="@drawable/upload_image_icon"
             android:layout_marginTop="@dimen/_5sdp"
             android:background="@color/white"

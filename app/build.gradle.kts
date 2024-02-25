@@ -41,7 +41,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     //noinspection GradleCompatible
     implementation("com.android.support:appcompat-v7:28.0.0-alpha1")
-    implementation("com.google.firebase:firebase-auth:22.3.0")
+    implementation("com.google.firebase:firebase-auth:22.3.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("com.google.firebase:firebase-database:20.3.0")
     implementation("com.intuit.sdp:sdp-android:1.1.0")
