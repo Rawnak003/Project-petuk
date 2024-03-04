@@ -18,7 +18,6 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 public class EditPassword extends AppCompatActivity {
-
     String username;
     Button saveButton,bButton;
     EditText editUserName,editPass;
@@ -27,12 +26,10 @@ public class EditPassword extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_password);
-
         editPass = findViewById(R.id.edit_pass);
         editUserName = findViewById(R.id.edit_userName);
         saveButton = findViewById(R.id.save_button);
         bButton = findViewById(R.id.back_to_login_button);
-
         bButton.setOnClickListener(v -> finish());
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,11 +41,7 @@ public class EditPassword extends AppCompatActivity {
                 }
             }
         });
-
-
-
     }
-
     private void getUser() {
         username = editUserName.getText().toString().trim();
         reference = FirebaseDatabase.getInstance().getReference("users");
@@ -64,10 +57,8 @@ public class EditPassword extends AppCompatActivity {
                     editUserName.requestFocus();
                 }
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
             }
         });
     }
@@ -92,7 +83,6 @@ public class EditPassword extends AppCompatActivity {
         }
     }
     public void update(String p) {
-
         if(isPasswordChanged(p)){
             Toast.makeText(this, "Saved", Toast.LENGTH_LONG).show();
             Intent intent4 = new Intent(getApplicationContext(), appLogin.class);
@@ -102,7 +92,6 @@ public class EditPassword extends AppCompatActivity {
             Toast.makeText(this, "No Changes", Toast.LENGTH_LONG).show();
         }
     }
-
     private boolean isPasswordChanged(String pa) {
         if(!pa.equals(editPass.getText().toString())){
             reference.child(username).child("password").setValue(editPass.getText().toString());
@@ -111,5 +100,4 @@ public class EditPassword extends AppCompatActivity {
             return false;
         }
     }
-
 }

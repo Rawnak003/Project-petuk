@@ -8,9 +8,6 @@
     android:id="@+id/sideNavigation"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,7 +16,6 @@
         android:padding="@dimen/_18sdp">
         <include
             layout="@layout/toolbar3"/>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,7 +25,6 @@
             android:textColor="@color/black"
             android:textSize="@dimen/_16ssp"
             tools:ignore="TextContrastCheck" />
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,7 +34,6 @@
             android:textSize="@dimen/_21ssp"
             android:textStyle="bold"
             tools:ignore="TextContrastCheck" />
-
         <TextView
             android:id="@+id/dishName"
             android:layout_width="match_parent"
@@ -50,7 +44,6 @@
             android:textSize="@dimen/_26ssp"
             android:textStyle="bold"
             tools:ignore="TextContrastCheck" />
-
         <TextView
             android:id="@+id/ingredientId"
             android:layout_width="match_parent"
@@ -61,19 +54,16 @@
             android:textSize="@dimen/_21ssp"
             android:textStyle="bold"
             tools:ignore="TextContrastCheck" />
-
         <ScrollView
             android:id="@+id/RecipeScrollId1"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_100sdp"
             android:layout_marginTop="@dimen/_8sdp">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
                 android:padding="@dimen/_8sdp">
-
                 <TextView
                     android:id="@+id/IngredientTextId"
                     android:layout_width="match_parent"
@@ -83,7 +73,6 @@
                     android:textSize="@dimen/_11ssp" />
             </LinearLayout>
         </ScrollView>
-
         <TextView
             android:id="@+id/procedureId"
             android:layout_width="match_parent"
@@ -93,20 +82,17 @@
             android:textColor="#000000"
             android:textSize="@dimen/_21ssp"
             android:textStyle="bold" />
-
         <ScrollView
             android:id="@+id/RecipeScrollId2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="@dimen/_8sdp"
             android:padding="@dimen/_5sdp">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
                 android:padding="@dimen/_8sdp">
-
                 <TextView
                     android:id="@+id/procedureTextId"
                     android:layout_width="match_parent"
@@ -116,7 +102,6 @@
                     android:textSize="@dimen/_12ssp"
                     tools:ignore="VisualLintLongText" />
             </LinearLayout>
-
         </ScrollView>
     </LinearLayout>
     <RelativeLayout
@@ -126,5 +111,4 @@
         <include
             layout="@layout/activity_fav"/>
     </RelativeLayout>
-
 </androidx.drawerlayout.widget.DrawerLayout>

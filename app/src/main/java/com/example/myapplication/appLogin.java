@@ -21,18 +21,14 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.Objects;
 
 public class appLogin extends AppCompatActivity {
-
     TextView forPass;
     EditText loginUsername, loginPassword;
     Button loginButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_applogin);
-
         forPass = findViewById(R.id.forget_password);
-
         loginUsername = findViewById(R.id.login_username);
         loginPassword = findViewById(R.id.login_password);
         loginButton = findViewById(R.id.login_button);
@@ -50,7 +46,6 @@ public class appLogin extends AppCompatActivity {
             }
         });
     }
-
     public Boolean validateUsername() {
         String val = loginUsername.getText().toString();
         if (val.isEmpty()) {
@@ -74,26 +69,20 @@ public class appLogin extends AppCompatActivity {
     public void checkUser(){
         final String userUsername = loginUsername.getText().toString().trim();
         String userPassword = loginPassword.getText().toString().trim();
-
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference("users");
         Query User = reference.orderByChild("userName").equalTo(userUsername);
-
         User.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if(snapshot.exists()){
                     loginUsername.setError(null);
-
                     String passwordFromDB = snapshot.child(userUsername).child("password").getValue(String.class);
-
                     if(passwordFromDB.equals(userPassword)){
                         loginPassword.setError(null);
-
                         String nameFromDB = snapshot.child(userUsername).child("name").getValue(String.class);
                         String usernameFromDB = snapshot.child(userUsername).child("userName").getValue(String.class);
                         String phoneFromDB = snapshot.child(userUsername).child("phone").getValue(String.class);
                         String emailFromDB = snapshot.child(userUsername).child("email").getValue(String.class);
-
                         Intent intent = new Intent(getApplicationContext(), CategoryName.class);
                         intent.putExtra("name",nameFromDB);
                         intent.putExtra("userName",usernameFromDB);
@@ -116,10 +105,8 @@ public class appLogin extends AppCompatActivity {
 
             }
         });
-
     }
     public void registerPage(View view) {
         startActivity(new Intent(this, signup.class));
     }
-
 }

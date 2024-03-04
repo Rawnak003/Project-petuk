@@ -13,7 +13,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class Recipes extends AppCompatActivity {
-
     TextView txtView1,ingredient,procedure;
     DrawerLayout drawerLayout;
     ImageView menu;
@@ -22,7 +21,6 @@ public class Recipes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipes);
-
         drawerLayout = findViewById(R.id.sideNavigation);
         menu = findViewById(R.id.menu);
         home = findViewById(R.id.nav_home);
@@ -31,10 +29,8 @@ public class Recipes extends AppCompatActivity {
         favourite = findViewById(R.id.nav_fav);
         share = findViewById(R.id.nav_share);
         about = findViewById(R.id.nav_about);
-
         ingredient = findViewById(R.id.IngredientTextId);
         procedure = findViewById(R.id.procedureTextId);
-
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,12 +41,10 @@ public class Recipes extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = getIntent();
-
                 String nameUser = intent1.getStringExtra("name");
                 String emailUser = intent1.getStringExtra("email");
                 String phoneUser = intent1.getStringExtra("phone");
                 String usernameUser = intent1.getStringExtra("userName");
-
                 Intent intent = new Intent(getApplicationContext(), CategoryName.class);
                 intent.putExtra("name", nameUser);
                 intent.putExtra("email", emailUser);
@@ -64,12 +58,10 @@ public class Recipes extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = getIntent();
-
                 String nameUser = intent1.getStringExtra("name");
                 String emailUser = intent1.getStringExtra("email");
                 String phoneUser = intent1.getStringExtra("phone");
                 String usernameUser = intent1.getStringExtra("userName");
-
                 Intent intent2 = new Intent(getApplicationContext(),profile.class);
                 intent2.putExtra("name", nameUser);
                 intent2.putExtra("email", emailUser);
@@ -102,7 +94,6 @@ public class Recipes extends AppCompatActivity {
                 recreate();
             }
         });
-
         txtView1 = findViewById(R.id.dishName);
         Intent intent2 = getIntent();
         if(intent2.getExtras() != null){
@@ -267,25 +258,19 @@ public class Recipes extends AppCompatActivity {
             }
         }
     }
-
     public static void openDrawer(DrawerLayout drawerLayout){
         drawerLayout.openDrawer(GravityCompat.START);
     }
     public static void closeDrawer(DrawerLayout drawerLayout) {
         if(drawerLayout.isDrawerOpen(GravityCompat.START)){
-            drawerLayout.closeDrawer(GravityCompat.START);
-        }
+            drawerLayout.closeDrawer(GravityCompat.START);}
     }
     public static void redirect(Activity activity, Class sActivity){
         Intent intent = new Intent(activity,sActivity);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        activity.startActivity(intent);
-
-    }
-
+        activity.startActivity(intent);}
     @Override
     protected void onPause() {
         super.onPause();
-        closeDrawer(drawerLayout);
-    }
+        closeDrawer(drawerLayout);}
 }

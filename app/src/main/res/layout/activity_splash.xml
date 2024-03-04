@@ -7,7 +7,6 @@
     android:background="@drawable/mainback"
     tools:context=".splash"
     android:gravity="center|bottom">
-
     <ProgressBar
         android:id="@+id/progressBarId"
         android:layout_marginStart="@dimen/_50sdp"
@@ -19,5 +18,4 @@
         android:progressBackgroundTint="#F9F9F9"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         />
-
 </LinearLayout>

@@ -11,7 +11,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class profile extends AppCompatActivity {
-
     TextView profileName, profileEmail, showName, profilePhone;
     ImageView back;
     Button editProfileButton;
@@ -19,13 +18,11 @@ public class profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-
         profileName = findViewById(R.id.pro_name_txt);
         profileEmail = findViewById(R.id.pro_email_txt);
         profilePhone = findViewById(R.id.pro_contact_txt);
         showName = findViewById(R.id.showName);
         showAllUserData();
-
         back= findViewById(R.id.backButton);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,29 +31,21 @@ public class profile extends AppCompatActivity {
             }
         });
     }
-
     public void showAllUserData(){
         Intent intent = getIntent();
-
         String nameUser = intent.getStringExtra("name");
         String emailUser = intent.getStringExtra("email");
         String phoneUser = intent.getStringExtra("phone");
         String usernameUser = intent.getStringExtra("userName");
-
         profileName.setText(nameUser);
         profileEmail.setText(emailUser);
         profilePhone.setText(phoneUser);
         showName.setText(usernameUser);
-        
     }
-
-
-
     public void loginPage(View view) {
         Toast.makeText(profile.this,"logged out",Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, appLogin.class);
         startActivity(intent);
         finish();
     }
-
 }

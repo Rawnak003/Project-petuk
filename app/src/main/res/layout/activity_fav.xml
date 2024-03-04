@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="#E0F6FF"
     android:orientation="vertical">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/_150sdp"
@@ -14,7 +13,6 @@
         android:gravity="center"
         android:orientation="vertical"
         android:padding="@dimen/_18sdp">
-
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -22,16 +20,13 @@
             android:src="@drawable/backgroundlogo"
             tools:ignore="ImageContrastCheck" />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="@dimen/_18sdp"
         android:id="@+id/nav_home">
-
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawablePadding="@dimen/_8sdp"
@@ -40,7 +35,6 @@
             android:textSize="@dimen/_13ssp"
             android:textStyle="bold"
             app:drawableLeftCompat="@drawable/baseline_home_black_24" />
-
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -48,9 +42,7 @@
         android:orientation="vertical"
         android:padding="@dimen/_18sdp"
         android:id="@+id/nav_profile">
-
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawablePadding="@dimen/_8sdp"
@@ -59,7 +51,6 @@
             android:textSize="@dimen/_13ssp"
             android:textStyle="bold"
             app:drawableLeftCompat="@drawable/baseline_account_circle_24" />
-
     </LinearLayout>
     <View
         android:layout_width="match_parent"
@@ -71,9 +62,7 @@
         android:orientation="vertical"
         android:padding="@dimen/_18sdp"
         android:id="@+id/nav_recipe">
-
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawablePadding="@dimen/_8sdp"
@@ -82,7 +71,6 @@
             android:textSize="@dimen/_13ssp"
             android:textStyle="bold"
             app:drawableLeftCompat="@drawable/baseline_restaurant_24" />
-
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -90,9 +78,7 @@
         android:orientation="vertical"
         android:padding="@dimen/_18sdp"
         android:id="@+id/nav_fav">
-
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawablePadding="@dimen/_8sdp"
@@ -102,7 +88,6 @@
             android:textStyle="bold"
             app:drawableLeftCompat="@drawable/baseline_star_24"
             tools:ignore="VisualLintBounds" />
-
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -110,9 +95,7 @@
         android:orientation="vertical"
         android:padding="@dimen/_18sdp"
         android:id="@+id/nav_share">
-
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawablePadding="@dimen/_8sdp"
@@ -122,16 +105,12 @@
             android:textStyle="bold"
             app:drawableLeftCompat="@drawable/baseline_share_24"
             tools:ignore="VisualLintBounds" />
-
     </LinearLayout>
-
-
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/_1sdp"
         android:background="@color/black"
         tools:ignore="VisualLintBounds" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -139,9 +118,7 @@
         android:padding="@dimen/_18sdp"
         android:id="@+id/nav_about"
         tools:ignore="VisualLintBounds">
-
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawablePadding="@dimen/_8sdp"
@@ -151,7 +128,5 @@
             android:textStyle="bold"
             app:drawableLeftCompat="@drawable/baseline_info_24"
             tools:ignore="VisualLintBounds" />
-
     </LinearLayout>
-
 </LinearLayout>

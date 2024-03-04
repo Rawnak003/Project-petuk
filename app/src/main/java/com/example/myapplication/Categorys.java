@@ -17,7 +17,6 @@ import android.widget.TextView;
 import java.util.Objects;
 
 public class Categorys extends AppCompatActivity {
-
     private String[] Rname;
     TextView txtView;
     DrawerLayout drawerLayout;
@@ -27,9 +26,7 @@ public class Categorys extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categorys);
-
         txtView = findViewById(R.id.categoryId);
-
         drawerLayout = findViewById(R.id.sideNavigation);
         menu = findViewById(R.id.menu);
         home = findViewById(R.id.nav_home);
@@ -38,7 +35,6 @@ public class Categorys extends AppCompatActivity {
         favourite = findViewById(R.id.nav_fav);
         share = findViewById(R.id.nav_share);
         about = findViewById(R.id.nav_about);
-
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,12 +45,10 @@ public class Categorys extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = getIntent();
-
                 String nameUser = intent1.getStringExtra("name");
                 String emailUser = intent1.getStringExtra("email");
                 String phoneUser = intent1.getStringExtra("phone");
                 String usernameUser = intent1.getStringExtra("userName");
-
                 Intent intent = new Intent(getApplicationContext(), CategoryName.class);
                 intent.putExtra("name", nameUser);
                 intent.putExtra("email", emailUser);
@@ -68,19 +62,16 @@ public class Categorys extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = getIntent();
-
                 String nameUser = intent1.getStringExtra("name");
                 String emailUser = intent1.getStringExtra("email");
                 String phoneUser = intent1.getStringExtra("phone");
                 String usernameUser = intent1.getStringExtra("userName");
-
                 Intent intent2 = new Intent(getApplicationContext(),profile.class);
                 intent2.putExtra("name", nameUser);
                 intent2.putExtra("email", emailUser);
                 intent2.putExtra("phone", phoneUser);
                 intent2.putExtra("userName", usernameUser);
                 startActivity(intent2);
-
             }
         });
         recipes.setOnClickListener(new View.OnClickListener() {
@@ -107,7 +98,6 @@ public class Categorys extends AppCompatActivity {
                 recreate();
             }
         });
-
         GridView gridView2 = findViewById(R.id.GridView2);
         int[] pic = new int[100];
         Intent intent2 = getIntent();
@@ -192,26 +182,21 @@ public class Categorys extends AppCompatActivity {
                 public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                     String Sname = Rname[i];
                     Intent intent1 = getIntent();
-
                     String nameUser = intent1.getStringExtra("name");
                     String emailUser = intent1.getStringExtra("email");
                     String phoneUser = intent1.getStringExtra("phone");
                     String usernameUser = intent1.getStringExtra("userName");
-
                     Intent in = new Intent(getApplicationContext(), Recipes.class);
                     in.putExtra("Rname",Sname);
                     in.putExtra("name", nameUser);
                     in.putExtra("email", emailUser);
                     in.putExtra("phone", phoneUser);
                     in.putExtra("userName", usernameUser);
-
                     startActivity(in);
                 }
             });
         }
     }
-
-
     public void open4(View view) {
         startActivity(new Intent(this, Recipes.class));
     }
@@ -230,11 +215,9 @@ public class Categorys extends AppCompatActivity {
         activity.startActivity(intent);
 
     }
-
     @Override
     protected void onPause() {
         super.onPause();
         closeDrawer(drawerLayout);
     }
-
 }
